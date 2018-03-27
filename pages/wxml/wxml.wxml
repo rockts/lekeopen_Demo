@@ -1,8 +1,22 @@
-<!--pages/wxml/wxml.wxml-->
-<view class="container vertical centered">
+<scroll-view
+  scroll-y="{{ true }}"
+  style="height: 180px"
+  scroll-into-view="{{ currentView }}"
+  scroll-with-animation="{{ true }}"
+  >
+  <view class="view-container">
+    <view id="red" class="red" hover-class="light">
+      <text>1</text>
+    </view>
+    <view id="yellow" class="yellow" hover-class="light">
+      <text>2</text>
+    </view>
+    <view id="blue" class="blue" hover-class="light">
+      <text>3</text>
+    </view>
+  </view>
+</scroll-view>
 
-</view>
-
-<view class="image">
-  <image src="/assets/images/landscape.png"></image>
-</view>
+<button data-view="red"  bindtap="setScrollView">red</button>
+<button data-view="yellow"  bindtap="setScrollView">yellow</button>
+<button data-view="blue"  bindtap="setScrollView">blue</button>
