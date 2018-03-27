@@ -1,3 +1,7 @@
+input {
+  
+}
+
 movable-area {
   width: 100vw;
   height: 50vh;
@@ -9,7 +13,7 @@ movable-view {
   height: 80px;
   background: #6435c9;
 }
-image {
+image, .image {
   width: 100%;
 }
 button {

@@ -5,10 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-    images: [
-      'https://raw.githubusercontent.com/ninghao/ninghao-images/master/weixin/app/demo-1.jpg',
-      'https://raw.githubusercontent.com/ninghao/ninghao-images/master/weixin/app/demo-2.jpg',
-      'https://raw.githubusercontent.com/ninghao/ninghao-images/master/weixin/app/demo-3.jpg'
+    nodes: [
+      {
+        name: 'img',
+        attrs: {
+          class: 'image',
+          src: 'https://raw.githubusercontent.com/ninghao/ninghao-images/master/weixin/app/demo-1.jpg'
+        }
+      },
+      {
+        name: 'h3',
+        attrs: {
+          class: 'header'
+        },
+        children: [
+          {
+            type: 'text',
+            text: 'hello ~'
+          }
+        ]
+      }
     ]
   },
 

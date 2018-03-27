@@ -1,8 +1,3 @@
-<!--请设置navigator、image的宽高100%、swiper默认宽100%，高150px，swiper-item默认宽高100%-->
-<movable-area>
-  <movable-view
-    direction="all"
-    inertia="{{ true }}"
-    
+<map
+  long
   />
-</movable-area>
