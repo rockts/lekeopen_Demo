@@ -1,12 +1,8 @@
 <!--请设置navigator、image的宽高100%、swiper默认宽100%，高150px，swiper-item默认宽高100%-->
-<swiper
-  indicator-dots="{{ true }}"
-  indicator-color="rgba(255, 255, 255, 0.3)"
-  indicator-active-color="#ffffff"
->
-  <block wx:for="{{ images }}">
-    <swiper-item>
-      <image src="{{ item }}"></image>
-    </swiper-item>
-  </block>
-</swiper>
+<movable-area>
+  <movable-view
+    direction="all"
+    inertia="{{ true }}"
+    
+  />
+</movable-area>

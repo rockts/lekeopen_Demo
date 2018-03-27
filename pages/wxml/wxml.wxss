@@ -1,4 +1,14 @@
-/* pages/wxml/wxml.wxss */
+movable-area {
+  width: 100vw;
+  height: 50vh;
+  background: #ededed;
+}
+
+movable-view {
+  width: 80px;
+  height: 80px;
+  background: #6435c9;
+}
 image {
   width: 100%;
 }
