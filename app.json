@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/event/event",
     "pages/api/api",
     "pages/wxml/wxml",
     "pages/index/index",
-    "pages/event/event",
     "pages/demo/demo"
   ],
   "window": {
