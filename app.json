@@ -1,10 +1,7 @@
 {
   "pages": [
     "pages/event/event",
-    "pages/api/api",
-    "pages/wxml/wxml",
-    "pages/index/index",
-    "pages/demo/demo"
+    "pages/index/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
@@ -15,7 +12,6 @@
     "backgroundColor": "#ededed"
   },
   "tabBar": {
-    "color": "rgba(0, 0, 0, 0.6)",
     "selectedColor": "#000000",
     "borderStyle": "white",
     "backgroundColor": "#ededed",
@@ -25,18 +21,6 @@
         "pagePath": "pages/index/index",
         "iconPath": "assets/icons/home.png",
         "selectedIconPath": "assets/icons/home-active.png"
-      },
-      {
-        "text": "视图",
-        "pagePath": "pages/wxml/wxml",
-        "iconPath": "assets/icons/web.png",
-        "selectedIconPath": "assets/icons/web-active.png"
-      },
-      {
-        "text": "接口",
-        "pagePath": "pages/api/api",
-        "iconPath": "assets/icons/io.png",
-        "selectedIconPath": "assets/icons/io-active.png"
       },
       {
         "text": "活动",
